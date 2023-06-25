@@ -51,7 +51,7 @@ class NumberGuessingGame {
             total += score;
             avg = total / 3;
         }
-        System.out.println("Your average score for three rounds=" + avg);
+        System.out.println("\n\nYour average score for three rounds=" + avg);
         sc.close();
     }
 }
